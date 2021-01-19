@@ -10,7 +10,7 @@ function dataRequest($param1, $param2, $type) {
 
 	#curl
 	$token = "X0F1F2F3F4F5F56F7F8F9F0";
-	$url   = "https://[DOMAIN]/cliprovider/servidor.php?type={$type}&token={$token}&param1={$param1}&param2={$param2}";
+	$url   = "https://[DOMAIN]/cliprovider/server.php?type={$type}&token={$token}&param1={$param1}&param2={$param2}";
 	$init  = curl_init($url);
 
 	showCli("[Running] request: {$url}\n");
